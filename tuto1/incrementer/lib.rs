@@ -27,7 +27,7 @@ mod incrementer {
         #[ink(message)]
         pub fn inc(&mut self, by: i32) {
             self.value += by;
-            ink::env::debug_println!("incerment by {}, new value {}", by, self.value);
+            ink::env::debug_println!("increment by {}, new value {}", by, self.value);
             let signer = self.env().caller();
             self.env().emit_event(Incremented{ by, new_value: self.value, who: signer });
         }
