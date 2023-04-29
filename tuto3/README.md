@@ -1,9 +1,7 @@
-# Astar tutorial 1
-Tutorials to write Smart Contracts in Rust and Ink!
+# Astar tutorial 3
 
-Installation: https://polkaverse.com/11143/1-technical-guide-install-cargo-contract-37738
-Tutorial 3: https://polkaverse.com/11143/3-polymorphism-and-cross-contract-call-part1-38055
-
+Polymorphism with 'ink::trait_definition'  
+https://polkaverse.com/11143/3-polymorphism-with-ink-trait-definition-38055
 
 ## Build the contract ###
 ```bash

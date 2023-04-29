@@ -1,8 +1,7 @@
-# Astar tutorial 1
-Tutorials to write Smart Contracts in Rust and Ink!
+# Astar tutorial 4
 
-Installation: https://polkaverse.com/11143/1-technical-guide-install-cargo-contract-37738
-Tutorial 4: https://polkaverse.com/11143/4-cross-contract-call-38068
+Cross contract calling  
+https://polkaverse.com/11143/4-cross-contract-calling-38068
 
 
 ## Build the contract ###

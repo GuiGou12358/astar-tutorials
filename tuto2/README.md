@@ -1,9 +1,7 @@
-# Astar tutorial 1
-Tutorials to write Smart Contracts in Rust and Ink!
+# Astar tutorial 2
 
-Installation: https://polkaverse.com/11143/1-technical-guide-install-cargo-contract-37738
-Tutorial 2: https://polkaverse.com/11143/2-how-to-generate-pseudo-random-numbers-in-ink-smart-38019
-
+How to Generate Pseudo-Random Numbers in Ink! Smart Contract  
+https://polkaverse.com/11143/2-how-to-generate-pseudo-random-numbers-in-ink-smart-38019
 
 ## Build the contract ###
 ```bash
