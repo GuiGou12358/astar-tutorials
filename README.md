@@ -21,3 +21,13 @@ https://polkaverse.com/11143/3-polymorphism-with-ink-trait-definition-38055
 ## Tutorial 4
 Cross contract calling  
 https://polkaverse.com/11143/4-cross-contract-calling-38068
+
+## Tutorial 5
+dApps Staking Chain Extension
+https://polkaverse.com/11143/5-d-apps-staking-chain-extension-38473
+
+## Tutorial 6
+Security and access control with OpenBrush
+https://polkaverse.com/11143/6-security-and-access-control-with-open-brush-38539
+
+
