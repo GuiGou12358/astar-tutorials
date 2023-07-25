@@ -61,11 +61,17 @@ mod incrementer {
         use super::*;
         use openbrush::test_utils::{accounts, change_caller};
 
+        #[test]
+        fn test_constructor() {
+            let accounts = accounts();
+            let contract = Incrementer::new(10);
+            assert_eq!(10, contract.get_value());
+        }
+
         #[ink::test]
         fn test() {
             let accounts = accounts();
             let mut contract = Incrementer::new(10);
-            assert_eq!(10, contract.get_value());
 
             // alice increments the value
             change_caller(accounts.alice);
@@ -100,15 +106,7 @@ mod incrementer {
                 .expect("instantiate failed")
                 .account_id;
 
-            // read the value
-            let get_value = build_message::<IncrementerRef>(contract_id.clone())
-                .call(|contract| contract.get_value());
-            let result = client
-                .call_dry_run(&ink_e2e::alice(), &get_value, 0, None)
-                .await;
-            assert_eq!(10, result.return_value());
-
-            // alice increments the value
+            // when alice increments the value
             let inc_value = build_message::<IncrementerRef>(contract_id.clone())
                 .call(|contract| contract.inc(3));
             client
@@ -116,7 +114,7 @@ mod incrementer {
                 .await
                 .expect("inc failed");
 
-            // read the value
+            // then : the value has been updated
             let get_value = build_message::<IncrementerRef>(contract_id.clone())
                 .call(|contract| contract.get_value());
             let result = client
@@ -124,7 +122,7 @@ mod incrementer {
                 .await;
             assert_eq!(13, result.return_value());
 
-            // read the number of updates
+            // the number of updates for alice as well
             let get_nb_updates = build_message::<IncrementerRef>(contract_id.clone())
                 .call(|contract| contract.get_nb_updates());
             let result = client
