@@ -1,0 +1,27 @@
+[package]
+name = "renter"
+version = "0.0.2"
+authors = ["GuiGou"]
+edition = "2021"
+
+[dependencies]
+ink = { version = "4.2", default-features = false }
+scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["derive"] }
+scale-info = { version = "2", default-features = false, features = ["derive"], optional = true }
+openbrush = { git = "https://github.com/727-Ventures/openbrush-contracts", tag = "4.0.0-beta", default-features = false }
+logics = { path = "../../logics/v2", default-features = false}
+
+[lib]
+path = "lib.rs"
+
+[features]
+default = ["std"]
+std = [
+    "ink/std",
+    "scale/std",
+    "scale-info/std",
+    "openbrush/std",
+    "logics/std",
+]
+ink-as-dependency = []
+e2e-tests = []
