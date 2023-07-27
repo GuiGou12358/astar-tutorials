@@ -30,4 +30,12 @@ https://polkaverse.com/11143/5-d-apps-staking-chain-extension-38473
 Security and access control with OpenBrush  
 https://polkaverse.com/11143/6-security-and-access-control-with-open-brush-38539
 
+## Tutorial 7
+Contract Testing
+https://polkaverse.com/11143/7-contract-testing-38955
+
+## Tutorial 8
+Upgradeable contracts
+https://polkaverse.com/11143/upgradeable-contracts-38964
+
 
