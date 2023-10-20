@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "logics",
+    "contracts/addition",
+    "contracts/subtraction",
+    "contracts/calculator"
+]
