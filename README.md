@@ -38,4 +38,11 @@ https://polkaverse.com/11143/7-contract-testing-38955
 Upgradeable contracts
 https://polkaverse.com/11143/upgradeable-contracts-38964
 
+## Tutorial 9
+Verify a Ink! Smart Contract with Patron
+https://polkaverse.com/11143/9-verify-a-ink-smart-contract-with-patron-39541
+
+## Tutorial 10
+Terminate a contract and remove the code
+https://polkaverse.com/11143/10-terminate-a-contract-and-remove-the-code-39618
 
