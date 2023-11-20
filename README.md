@@ -46,3 +46,7 @@ https://polkaverse.com/11143/9-verify-a-ink-smart-contract-with-patron-39541
 Terminate a contract and remove the code
 https://polkaverse.com/11143/10-terminate-a-contract-and-remove-the-code-39618
 
+## Tutorial 11
+PSP22 - Fungible Token (ERC20 equivalent)
+https://polkaverse.com/11143/11-psp-22-fungible-token-erc-20-equivalent-39883
+
