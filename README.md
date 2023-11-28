@@ -50,3 +50,6 @@ https://polkaverse.com/11143/10-terminate-a-contract-and-remove-the-code-39618
 PSP22 - Fungible Token (ERC20 equivalent)
 https://polkaverse.com/11143/11-psp-22-fungible-token-erc-20-equivalent-39883
 
+## Tutorial 12
+PSP34 - Non-Fungible Token (ERC721 equivalent)
+https://polkaverse.com/11143/11-psp-34-non-fungible-token-erc-721-equivalent-39968
